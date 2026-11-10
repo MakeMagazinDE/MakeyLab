@@ -16,7 +16,6 @@ Hier findest du:
 
 - **Beispielprogramme:** Fertige Programme für die IoT-Werkstatt im `.abp`-Format.
 - **Projekte und Experimente:** Ideen zum Nachbauen und Weiterentwickeln.
-- **Lernkarten:** Schritt-für-Schritt-Anleitungen für spannende Experimente.
 - **Hardware-Dokumentation:** Informationen zu Sensoren, Anschlüssen und Erweiterungsmöglichkeiten.
 - **Software:** Informationen und Downloads rund um die Programmierung von Makey:Lab.
 
@@ -55,6 +54,14 @@ Du kannst uns auch direkt schreiben:
 - [Makey:Lab – offizielle Website](https://makeylab.de)
 - [Make Magazin](https://www.heise.de/make/)
 - [Make auf GitHub](https://github.com/MakeMagazinDE)
+
+## Makey:Lab kaufen
+
+Du möchtest selbst mit Makey:Lab experimentieren und eigene Projekte entwickeln?
+
+**[➡️ Makey:Lab im heise Shop bestellen](https://shop.heise.de/makey-lab-iot-lern-und-experimentierplattform)**
+
+Das Set enthält das Makey:Lab-Board, ein USB-Kabel und das umfangreiche Playbook mit zahlreichen Experimenten und Anleitungen.
 
 ---
 
