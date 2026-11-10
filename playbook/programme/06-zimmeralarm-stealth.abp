@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+    <Pages collapsible-pages="yes" drawer-with-page="yes">
+        <Page page-color="210 210 210" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="4000">
+            <PageBlocks>
+                <Block genus-name="OLED_Print3" id="2320">
+                    <Location>
+                        <X>266</X>
+                        <Y>108</Y>
+                    </Location>
+                    <BeforeBlockId>287</BeforeBlockId>
+                    <Sockets num-sockets="4">
+                        <BlockConnector connector-kind="socket" connector-type="string" init-type="string" label="text" position-type="single"/>
+                        <BlockConnector connector-kind="socket" connector-type="string" init-type="string" label="text" position-type="single"/>
+                        <BlockConnector connector-kind="socket" connector-type="string" init-type="string" label="text" position-type="single"/>
+                        <BlockConnector con-block-id="2322" connector-kind="socket" connector-type="string" init-type="string" label="size" position-type="single"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="OLED_FontSize12" id="2322">
+                    <Label>9pt</Label>
+                    <Location>
+                        <X>380</X>
+                        <Y>183</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="2320" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="if" id="1977">
+                    <Location>
+                        <X>265</X>
+                        <Y>222</Y>
+                    </Location>
+                    <BeforeBlockId>287</BeforeBlockId>
+                    <AfterBlockId>1633</AfterBlockId>
+                    <Sockets num-sockets="2">
+                        <BlockConnector con-block-id="599" connector-kind="socket" connector-type="boolean" init-type="boolean" label="teste" position-type="single"/>
+                        <BlockConnector con-block-id="1286" connector-kind="socket" connector-type="cmd" init-type="cmd" label="dann" position-type="single"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="delay" id="1633">
+                    <Location>
+                        <X>265</X>
+                        <Y>321</Y>
+                    </Location>
+                    <BeforeBlockId>1977</BeforeBlockId>
+                    <Sockets num-sockets="1">
+                        <BlockConnector con-block-id="1634" connector-kind="socket" connector-type="number" init-type="number" label="ms" position-type="single"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="number" id="1634">
+                    <Label>20</Label>
+                    <Location>
+                        <X>387</X>
+                        <Y>324</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="1633" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="BuzzerTone" id="1286">
+                    <Location>
+                        <X>344</X>
+                        <Y>258</Y>
+                    </Location>
+                    <BeforeBlockId>1977</BeforeBlockId>
+                    <Sockets num-sockets="2">
+                        <BlockConnector con-block-id="1287" connector-kind="socket" connector-type="number" init-type="number" label="frequency (Hz)" position-type="single"/>
+                        <BlockConnector con-block-id="1288" connector-kind="socket" connector-type="number" init-type="number" label="duration (ms)" position-type="single"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="number" id="1288">
+                    <Label>5000</Label>
+                    <Location>
+                        <X>542</X>
+                        <Y>285</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="1286" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="number" id="1287">
+                    <Label>1000</Label>
+                    <Location>
+                        <X>542</X>
+                        <Y>261</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="1286" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="less" id="599">
+                    <Location>
+                        <X>347</X>
+                        <Y>225</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="1977" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+                    </Plug>
+                    <Sockets num-sockets="2">
+                        <BlockConnector con-block-id="942" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+                        <BlockConnector con-block-id="600" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="number" id="600">
+                    <Label>10</Label>
+                    <Location>
+                        <X>767</X>
+                        <Y>228</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="599" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="ADPS9999Get" id="942">
+                    <Label>Farbe, Abstand, Licht APDS9999</Label>
+                    <Location>
+                        <X>357</X>
+                        <Y>228</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="599" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+                    </Plug>
+                    <Sockets num-sockets="1">
+                        <BlockConnector con-block-id="943" connector-kind="socket" connector-type="number" init-type="number" label="Sensor" position-type="single"/>
+                    </Sockets>
+                </Block>
+                <Block genus-name="ADPS9999Dist" id="943">
+                    <Location>
+                        <X>613</X>
+                        <Y>228</Y>
+                    </Location>
+                    <Plug>
+                        <BlockConnector con-block-id="942" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+                    </Plug>
+                </Block>
+                <Block genus-name="program" id="287">
+                    <Location>
+                        <X>101</X>
+                        <Y>100</Y>
+                    </Location>
+                    <Comment>
+                        <Text>Abstandsmessung:
+
+Dank Sensor kann der Makey den Abstand zu Gegenständen messen und visualisieren.
+Abstandsbereich ca. 30 cm</Text>
+                        <Location>
+                            <X>130</X>
+                            <Y>10</Y>
+                        </Location>
+                        <BoxSize>
+                            <Width>747</Width>
+                            <Height>85</Height>
+                        </BoxSize>
+                        <Collapsed/>
+                    </Comment>
+                    <Sockets num-sockets="2">
+                        <BlockConnector con-block-id="2320" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Setup" position-type="single"/>
+                        <BlockConnector con-block-id="1977" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Schleife" position-type="single"/>
+                    </Sockets>
+                </Block>
+            </PageBlocks>
+        </Page>
+    </Pages>
+</cb:CODEBLOCKS>
