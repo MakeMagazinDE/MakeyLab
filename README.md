@@ -7,7 +7,7 @@
 
 Damit lassen sich viele Projekte direkt umsetzen – ohne zusätzliche Bauteile oder aufwendige Verkabelung.
 
-Makey:Lab ist ein gemeinsames Projekt von **Make** und dem **Umwelt-Campus Birkenfeld der Hochschule Trier**.
+Makey:Lab ist ein gemeinsames Projekt des **[Make-Magazins](https://www.heise.de/make/)** und des **Umwelt-Campus Birkenfeld der Hochschule Trier**.
 
 ## Willkommen in der Makey:Lab-Werkstatt!
 
@@ -63,6 +63,45 @@ Du möchtest selbst mit Makey:Lab experimentieren und eigene Projekte entwickeln
 **[➡️ Makey:Lab im heise Shop bestellen](https://shop.heise.de/makey-lab-iot-lern-und-experimentierplattform)**
 
 Das Set enthält das Makey:Lab-Board, ein USB-Kabel und das umfangreiche Playbook mit zahlreichen Experimenten und Anleitungen.
+
+### Produktbilder
+
+<!-- Makey:Lab Produktgalerie START -->
+<table>
+  <tr>
+    <td width="50%">
+      <a href="pictures/makeylab-1.jpg">
+        <img src="pictures/thumbnails/makeylab-1-thumb.jpg"
+             alt="Makey:Lab – ESP32-basiertes IoT-Lern- und Experimentierboard"
+             width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="pictures/makeylab-2.jpg">
+        <img src="pictures/thumbnails/makeylab-2-thumb.jpg"
+             alt="Makey:Lab Komplettset mit Experimentierboard, Verpackung und Playbook"
+             width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="pictures/makeylab-3.jpg">
+        <img src="pictures/thumbnails/makeylab-3-thumb.jpg"
+             alt="Makey:Lab – geöffnete Verpackung mit Experimentierboard und Zubehör"
+             width="100%">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="pictures/makeylab-4.jpg">
+        <img src="pictures/thumbnails/makeylab-4-thumb.jpg"
+             alt="Makey:Lab Playbook – aufgeschlagenes Handbuch mit Blockly-Programmen und Experimentieranleitungen"
+             width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<!-- Makey:Lab Produktgalerie ENDE -->
 
 ---
 
