@@ -1,8 +1,9 @@
+![Makey:Lab – Logo mit rotem Roboter](assets/makeylab-git-logo.png "Makey:Lab – IoT-Lern- und Experimentierplattform")
 # Makey:Lab - Die neue IoT Lern- und Experimentierplattform
 
 **Experimentieren, programmieren und Technik entdecken.**
 
-Makey:Lab ist eine vielseitige Experimentier- und Lernplattform auf Basis des ESP32. Das Board vereint zahlreiche Sensoren, LEDs, Taster, einen Drehencoder, Audiofunktionen und Schnittstellen für eigene Erweiterungen.
+**Makey:Lab** ist eine vielseitige Experimentier- und Lernplattform auf Basis des ESP32. Das Board vereint zahlreiche Sensoren, LEDs, Taster, einen Drehencoder, Audiofunktionen und Schnittstellen für eigene Erweiterungen.
 
 Damit lassen sich viele Projekte direkt umsetzen – ohne zusätzliche Bauteile oder aufwendige Verkabelung.
 
