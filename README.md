@@ -7,7 +7,38 @@
 
 Damit lassen sich viele Projekte direkt umsetzen – ohne zusätzliche Bauteile oder aufwendige Verkabelung.
 
-Makey:Lab ist ein gemeinsames Projekt von **Make** und dem **Umwelt-Campus Birkenfeld der Hochschule Trier**.
+Makey:Lab ist ein gemeinsames Projekt des **[Make-Magazins](https://www.heise.de/make/)** und des **Umwelt-Campus Birkenfeld der Hochschule Trier**.
+
+<!-- Makey:Lab Produktgalerie START -->
+<table>
+  <tr>
+    <td width="25%">
+      <a href="pictures/makeylab-1.jpg">
+        <img src="pictures/thumbnails/makeylab-1-thumb.jpg"
+             alt="Makey:Lab – Produktbild 1" width="100%">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="pictures/makeylab-2.jpg">
+        <img src="pictures/thumbnails/makeylab-2-thumb.jpg"
+             alt="Makey:Lab – Produktbild 2" width="100%">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="pictures/makeylab-3.jpg">
+        <img src="pictures/thumbnails/makeylab-3-thumb.jpg"
+             alt="Makey:Lab – Produktbild 3" width="100%">
+      </a>
+    </td>
+    <td width="25%">
+      <a href="pictures/makeylab-4.jpg">
+        <img src="pictures/thumbnails/makeylab-4-thumb.jpg"
+             alt="Makey:Lab – Produktbild 4" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+<!-- Makey:Lab Produktgalerie ENDE -->
 
 ## Willkommen in der Makey:Lab-Werkstatt!
 
