@@ -30,6 +30,12 @@ Mit der **IoT-Werkstatt** lässt sich Makey:Lab besonders einfach programmieren.
 
 So entstehen mit wenigen Bausteinen bereits erste Anwendungen – von der Wetterstation über die Umweltampel bis zum elektronischen Musikinstrument.
 
+## Hardware-Dokumentation
+
+- [Platinenübersicht (PDF)](docs/MakeyLab-overview-1.pdf) – Vorder- und Rückseite auf einem Blatt
+- [Pinbelegung (PDF)](docs/MakeyLab-connectors-1.pdf) – Grove-Buchsen und Edge-Connector
+- [Alle Hardware-Unterlagen](docs/README.md)
+
 ## Mitmachen
 
 Du hast ein eigenes Projekt mit Makey:Lab entwickelt, eine spannende Idee oder möchtest deine Erfahrungen mit anderen teilen?
